@@ -19,7 +19,7 @@ const App = () => {
       const parsedInput = JSON.parse(sanitizedInput);
 
       // Make API call
-      const res = await axios.post("http://localhost:5000/bfhl", parsedInput);
+      const res = await axios.post("https://solution1ofbj-backend.onrender.com/bfhl", parsedInput);
       setResponse(res.data);
     } catch (error) {
       console.log("Error:", error);
