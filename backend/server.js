@@ -14,7 +14,7 @@ app.use(
 
 app.use(
   cors({
-    origin: "http://localhost:5173", // Replace this with your frontend's URL
+    origin: "https://solution1ofbj-frontend.onrender.com", // Replace this with your frontend's URL
     methods: ["GET", "POST"], // Allow specific methods
   })
 );
